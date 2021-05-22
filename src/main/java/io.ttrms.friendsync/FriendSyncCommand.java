@@ -23,13 +23,13 @@ public class FriendSyncCommand extends CommandBase {
         switch (args[0]){
             case "add":{
                 if(args.length == 3){
-                    if(FriendUtil.addFriend(args[1],args[2])){
+                    if(FriendUtil.addFriend(args[1],args[2],null)){
                         sender.sendMessage(new TextComponentString("Player " + args[1] + " has been added to your friends list"));
                     }else{
                         sender.sendMessage(new TextComponentString("Player " + args[1] + " already exists on your friends list"));
                     }
                 }else if(args.length == 2){
-                    if(FriendUtil.addFriend(args[1],args[1])){
+                    if(FriendUtil.addFriend(args[1],args[1],null)){
                         sender.sendMessage(new TextComponentString("Player " + args[1] + " has been added to your friends list"));
                     }else{
                         sender.sendMessage(new TextComponentString("Player " + args[1] + " already exists on your friends list"));

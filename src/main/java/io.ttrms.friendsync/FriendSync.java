@@ -5,7 +5,7 @@ import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = "friendsync", name = "FriendSync", version = "1.0")
+@Mod(modid = "friendsync", name = "FriendSync", version = "1.1")
 public class FriendSync {
 
 

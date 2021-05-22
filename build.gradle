@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 
 group = 'io.ttrms'
-version = '1.0'
+version = '1.1'
 archivesBaseName = 'friendsync'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
@@ -63,7 +63,7 @@ jar {
         attributes([
                 "Specification-Title"     : "friendsync",
                 "Specification-Vendor"    : "ttRMS",
-                "Specification-Version"   : "1",
+                "Specification-Version"   : "1.1",
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.version,
                 "Implementation-Vendor"   : "ttRMS",
