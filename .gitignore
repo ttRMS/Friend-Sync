@@ -135,3 +135,4 @@ gradle-app.setting
 .idea/modules/FriendSync.test.iml
 gradle/wrapper/gradle-wrapper.jar
 gradle/wrapper/gradle-wrapper.properties
+.idea/.name
