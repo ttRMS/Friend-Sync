@@ -54,6 +54,7 @@ public class FriendSyncCommand extends CommandBase {
             case "sync":{
                 ClientUtils.read();
                 ClientUtils.write();
+                sender.sendMessage(new TextComponentString("Friend lists have been synced"));
                 break;
             }
 
